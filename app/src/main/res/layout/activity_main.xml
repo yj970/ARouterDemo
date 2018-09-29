@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:onClick="click1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="最简单跳转"
+       />
+    <Button
+        android:onClick="click2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="跳转携带数据"
+        />
+    <Button
+        android:onClick="click3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="跳转带回调函数"
+        />
+    <Button
+        android:onClick="click4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="webview跳转（url）"
+        />
+    <Button
+        android:onClick="click5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="利用ARouter获取fragment"
+        />
+    <Button
+        android:onClick="click6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="暴露服务"
+        />
+</LinearLayout>
